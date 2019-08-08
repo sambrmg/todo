@@ -1,0 +1,31 @@
+.lista {
+
+    text-align: center;
+    font-family: "Lucida Sans Unicode","Lucida Grande", sans-serif;
+    font-size: 14px;
+    border: 1px solid red;
+    width: 300px;
+    margin-top: 10px;
+
+}
+
+.feito{
+
+    color: #04B404;
+    border-color: 1px solid #04B404;
+    border-radius: 5px;
+}
+
+.incluir{
+
+    color: #DF0101;
+    border-color: 1px solid #DF0101;
+    border-radius: 5px;
+}
+
+#item{
+
+    color: #190B07;
+    width: 200px;
+    border: 1px solid red;
+}
