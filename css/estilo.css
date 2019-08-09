@@ -1,0 +1,22 @@
+body {
+    font-family:  'Times New Roman', Times, serif;
+}
+
+#texto {
+    border-radius: 6px;
+    border: 1px solid #bebebe;
+    width: 200px;
+    height: 20px;
+}
+
+#btnIncluir {
+    background-color: #0075ef;
+    color: #fff;
+    width: 60px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #060606;
+    font-family:  'Times New Roman', Times, serif;
+    height: 26px;   
+}
