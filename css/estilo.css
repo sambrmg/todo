@@ -24,4 +24,5 @@ body {
     border: 1px solid #0066fe;
     font-family:  'Times New Roman', Times, serif;
     height: 26px;   
+    cursor: pointer;
 }
