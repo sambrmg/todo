@@ -7,8 +7,9 @@
     <title>Lista de tarefas</title>
     <link rel="stylesheet" href="css/estilo.css">
     <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="css/lista.css">
 </head>
-<body>
+<body id="container">
 
     <form>
             <input type="text" id="texto">
@@ -17,12 +18,12 @@
     </form>
 
 
-    <div>
-        <ul class="listaTarefas">
+    <div class="lista">
+        <ul>
             <li>
-                <span>Item 1</span> 
-                <button>Feito</button>
-                <button>Excluir</button>
+                <span>Item 1</span>
+                <button class="feito">Feito</button>
+                <button class="excluir">Excluir</button>
             </li>
         </ul>
 
