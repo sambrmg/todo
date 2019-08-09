@@ -2,6 +2,7 @@ $('#btnIncluir').click(function(){
     var conteudoTarefa = $('#texto').val();
 $('.lista ul').append('<li><span>'+conteudoTarefa+'</span><button class="feito">Feito</button><button class="excluir">Excluir</button></li>');
 eventoExcluir ();
+eventoFeito ();
 });
 function eventoExcluir (){
     $('.excluir').click(function(event){
@@ -9,3 +10,9 @@ function eventoExcluir (){
     });
 
 }
+
+/**marcar como feito **/
+function eventoFeito (){
+$('.feito').click(function(event){
+    $( event.target ).parent().find('span').addClass('marcar');})
+};
