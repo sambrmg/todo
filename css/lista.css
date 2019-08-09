@@ -1,31 +1,48 @@
 .lista {
 
-    text-align: center;
     font-family: "Lucida Sans Unicode","Lucida Grande", sans-serif;
     font-size: 14px;
-    border: 1px solid red;
-    width: 300px;
+   
     margin-top: 10px;
 
 }
 
 .feito{
 
-    color: #04B404;
-    border-color: 1px solid #04B404;
-    border-radius: 5px;
+    background-color: #ffffff;
+    color: #60aa00;
+    width: 55px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #60aa00;
+    font-family:  'Times New Roman', Times, serif;
+    height: 26px;
+     
 }
 
-.incluir{
+.excluir{
 
-    color: #DF0101;
-    border-color: 1px solid #DF0101;
-    border-radius: 5px;
+    background-color: #ffffff;
+    color: #e34e1e;
+    width: 55px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #e34e1e;
+    font-family:  'Times New Roman', Times, serif;
+    height: 26px;  
 }
 
-#item{
 
-    color: #190B07;
-    width: 200px;
-    border: 1px solid red;
+.lista li{
+    list-style-type: none;
+}
+.lista span{
+    width: 149px;
+    padding-left:2px; 
+    display: inline-block;
+}
+.lista ul{
+    padding: 0;
 }
