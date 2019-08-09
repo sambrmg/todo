@@ -3,8 +3,8 @@ $('#btnIncluir').click(function(){
 $('.lista').append('<li>'+conteudoTarefa+'</li>');
 });
 
-$('.excluir').click(function(){
+$('.excluir').click(function(event){
 
-    $('li').remove();
+    $(event.target).parent().remove();  
 
 });
