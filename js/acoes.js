@@ -4,3 +4,8 @@ $('.lista ul').append('<li><span>'+conteudoTarefa+'</span><button class="feito">
 
 });
 
+$('.excluir').click(function(){
+
+    $('li').remove();
+
+});
