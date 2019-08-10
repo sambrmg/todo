@@ -47,10 +47,15 @@ table {
 	border-spacing: 0;
 }
 #container{
-    width: 280px;
+    width: auto;
     padding: 5px;
     
 }
+header h1{
+    width: auto;
+    text-align: center;
+}
+
 body {
     font-family:  'Times New Roman', Times, serif;
 }

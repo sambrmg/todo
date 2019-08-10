@@ -39,7 +39,9 @@
 
 .lista li{
     list-style-type: none;
+    margin: 10px 0px;
 }
+
 .lista span{
     width: 149px;
     padding-left:2px; 
@@ -47,6 +49,7 @@
 }
 .lista ul{
     padding: 0;
+    
 }
 
 .marcar{
