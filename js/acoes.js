@@ -13,7 +13,7 @@ $('#btnIncluir').click(function () {
     }
 });
 
-    $('#texto').keydown(function(){
+    $('#texto').keyup(function(){
         if ( $(this).val() != ""){
             $('#texto').removeClass('tarefa-vazia ');
         } else {
