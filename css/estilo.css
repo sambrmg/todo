@@ -62,6 +62,10 @@ body {
     height: 20px;
 }
 
+#texto.tarefa-vazia {
+    border-color: red;
+}
+
 #btnIncluir {
     background-color: #0075ef;
     color: #fff;
