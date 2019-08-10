@@ -42,23 +42,27 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 #container{
-    width: auto;
-    padding: 5px;
+    width: 350px;
+    margin: 0 auto;
     
 }
 header h1{
-    width: auto;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 15px 0; 
 }
 
-body {
-    font-family:  'Times New Roman', Times, serif;
-}
+
 
 #texto {
     border-radius: 6px;
@@ -75,12 +79,9 @@ body {
 #btnIncluir {
     background-color: #0075ef;
     color: #fff;
-    width: 60px;
+    padding: 5px 10px;
     font-weight: bold;
-    padding: 5px;
     border-radius: 6px;
     border: 1px solid #0066fe;
-    font-family:  'Times New Roman', Times, serif;
-    height: 26px;   
     cursor: pointer;
 }
