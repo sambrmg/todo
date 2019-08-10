@@ -1,4 +1,5 @@
 $('#btnIncluir').click(function () {
+
     var conteudoTarefa = $('#texto').val();
 
     if (conteudoTarefa == "") {
@@ -11,6 +12,15 @@ $('#btnIncluir').click(function () {
         eventoFeito();
     }
 });
+
+    $('#texto').keydown(function(){
+        if ( $(this).val() != ""){
+            $('#texto').removeClass('tarefa-vazia ');
+        } else {
+            $('#texto').addClass('tarefa-vazia ');
+        }
+        
+    });
 
 function eventoExcluir() {
         $('.excluir').click(function (event) {
